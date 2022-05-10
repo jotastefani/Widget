@@ -12,6 +12,6 @@ app.use(routes)
 
 
 
-app.listen(3333, () => {
+app.listen(process.env.PORT || 333, () => {
   console.log('HTTP server running!');
 })
